@@ -1,0 +1,15 @@
+git clone https://github.com/WlFerrari/cltversion.git
+git add index.html
+git commit -m "Adicionando o HTML da página"
+git push origin PaginaHTML
+git branch "css"
+git checkout css
+git add style.css
+git commit -m "Adicionando o arquivo CSS"
+git push origin css
+git merge PaginaHTML
+git merge css
+git add . 
+git commit -m "Código Final"
+A Branch PaginaHTML serve para enviar o arquivo index.html para a main 
+A Branch css server para enviar o arquivo css para a main
